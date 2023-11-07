@@ -6,7 +6,7 @@ length_num = len(card_number)
 for num in (num for num in range(length_num) if num % 2 == 0):
     card_number[num] *=2
 if sum(card_number) % 10 == 0:
-    print("card numberis vallid")
+    print("card numberis valid")
 else :
-    print("card number is invallid")
+    print("card number is invalid")
             
