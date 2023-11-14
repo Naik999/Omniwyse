@@ -1,0 +1,50 @@
+{ 
+    "student":
+    [
+        {
+            "f_Name": "chandu",
+            "m_Name": "null",
+            "l_Name": "siripurapu",
+            "id" : "20505a306",
+            "collage" : "PVPSIT"
+          
+        },
+        {
+            "f_Name": "Ravindra",
+            "m_Name": "Naik",
+            "l_Name": "Banavanthu",
+            "id" : "20505a0301",
+            "collage" : "PVPSIT"
+        },
+        {
+            "f_Name": "nokesh",
+            "m_Name": "null",
+            "l_Name": "dadi",
+            "id" : "20505a0309",
+            "collage" : "PVPSIT"
+        },
+        {
+            "f_Name": "mani",
+            "m_Name": "kanta",
+            "l_Name": "pamidakula",
+            "id" : "20505a0312",
+            "collage" : "PVPSIT"
+        },
+        {
+            "f_Name": "ravikiran",
+            "m_Name": "null",
+            "l_Name": "chimirala",
+            "id" : "20505a0318",
+            "collage" : "PVPSIT"
+        },
+        {
+            "f_Name": "saikiran",
+            "m_Name": "null",
+            "l_Name": "padal",
+            "id" : "20505a0318",
+            "collage" : "PVPSIT"
+        }
+
+    ]
+}
+
