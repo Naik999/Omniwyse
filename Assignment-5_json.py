@@ -12,5 +12,5 @@ for student in data['student']:
         fn =student['f_Name']+student['l_Name']
         email =f"{student ['collage']}.{student['id']}.{student['f_Name']}{student['l_Name']}@gmail.com"
     dict[email]={"id": student["id"],"fullname": fn}
-    details = json.dumps(dict,indent=(3))   
+details = json.dumps(dict,indent=(3))   
 print(details)
