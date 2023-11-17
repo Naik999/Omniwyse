@@ -27,6 +27,7 @@ with open("dict.json","r")as file_name:
 for student in data_num['student']:
     t = New(**student)
     mail = t.generate_mail()
+final= json.dumps(mail,indent = (2))
 print(mail)
 
 
