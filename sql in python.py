@@ -38,6 +38,11 @@ my = mycursor.fetchall()
 for a in my:
   print(a)
 
+Q5a = "SELECT  actor_first_name  FROM films_data GROUP BY  actor_first_name HAVING  COUNT(film_name) >2"
+mycursor.execute(Q5a)
+na = mycursor.fetchall()
+print(na)
+
 Q6 = "SELECT * FROM films_data WHERE 'Academy Dinosaur'"
 mycursor.execute(Q6)
 my = mycursor.fetchall()
@@ -69,6 +74,7 @@ for a in my:
 
 mycursor.close()
 mydb.close()
+ 
  
 
 
