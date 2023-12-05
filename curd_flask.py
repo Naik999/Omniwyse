@@ -17,7 +17,6 @@ class User (db.Model):
 def students():
     return render_template("new_path.html" )
 
-
 @app.route('/submit', methods=["GET", "POST"])
 def submit():
         user_id = request.form.get('id')
@@ -27,9 +26,7 @@ def submit():
                 out = f" {user.name} , {user.mail} , {user.age}"
                 return jsonify(out)
         return "ID not provided"
-
-
-
+    
 
 if __name__ == '__main__':
     app.run()
