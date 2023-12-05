@@ -1,7 +1,6 @@
 from flask import Flask ,render_template,request,jsonify
 from flask_sqlalchemy import SQLAlchemy
 
-
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:R%40vindra@localhost/data'
 
@@ -26,7 +25,6 @@ def submit():
                 out = f" {user.name} , {user.mail} , {user.age}"
                 return jsonify(out)
         return "ID not provided"
-    
 
 if __name__ == '__main__':
     app.run()
